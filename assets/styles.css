@@ -1,0 +1,85 @@
+/*************
+Custom Styles
+AN
+12/14/2019
+*************/
+
+/*Global Styles*/
+@media screen and (prefers-color-scheme: dark){
+	html, body{
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/your_name-meteor-3440x1440.png);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #e6e6e6
+	}
+
+	h1, h2, h3, h4, h5, h6, p, a, hr{
+		color: #e6e6e6;
+	}
+
+	hr{
+		background-color: #e6e6e6;
+	}
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+p, a{
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+	/*font-size: 1.30em;*/
+}
+
+nav{
+	height: fit-content;
+	grid-row: 1;
+	
+}
+
+.test{
+	height: 100%;
+	grid-row: 2
+}
+
+footer{
+	min-width: 100%;
+	padding: 0 0 0 0; 
+	text-align: center;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+.content-bg{
+	padding-top: 1em;
+	min-height: 100%;
+	grid-row: 2;
+}
+
+.content{
+	min-height: 100%;
+	padding-top: 1em;
+}
+
+/*Page Styles*/
+/*.index{	
+	margin: 0;
+	padding: 1em;
+	height: 0%;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/your_name-meteor-3440x1440.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+/*Unique Styles*/
